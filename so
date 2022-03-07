@@ -1,0 +1,12 @@
+#! /bin/sh
+
+export OPENLANE_ROOT=/home/qzh/Dropbox/a1001_NM/f9_chip/efab5c/openlane 
+
+export PDK_ROOT=/home/qzh/Dropbox/a1001_NM/f9_chip/efab5c/pdks
+
+echo $OPENLANE_ROOT
+echo $PDK_ROOT
+
+
+sudo chmod 666 /var/run/docker.sock
+

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1645740619
+timestamp 1646672430
 << obsli1 >>
 rect 1104 2159 178848 117521
 << obsm1 >>
@@ -1225,7 +1225,7 @@ rect 178794 2 178994 856
 rect 179162 2 179362 856
 rect 179530 2 179730 856
 << obsm3 >>
-rect 13 171 173488 117537
+rect 13 35 173488 117537
 << metal4 >>
 rect 4208 2128 4528 117552
 rect 19568 2128 19888 117552
@@ -1240,11 +1240,12 @@ rect 142448 2128 142768 117552
 rect 157808 2128 158128 117552
 rect 173168 2128 173488 117552
 << obsm4 >>
-rect 47899 2048 50208 53141
-rect 50688 2048 65568 53141
-rect 66048 2048 80928 53141
-rect 81408 2048 95805 53141
-rect 47899 171 95805 2048
+rect 16251 2048 19488 29613
+rect 19968 2048 34848 29613
+rect 35328 2048 50208 29613
+rect 50688 2048 65568 29613
+rect 66048 2048 74093 29613
+rect 16251 35 74093 2048
 << labels >>
 rlabel metal2 s 754 119200 810 120000 6 io_in[0]
 port 1 nsew signal input
@@ -2488,8 +2489,8 @@ port 609 nsew signal input
 string FIXED_BBOX 0 0 180000 120000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 8544028
-string GDS_FILE /home/marwan/mpw-5c/caravel_example/openlane/user_proj_example/runs/user_proj_example/results/finishing/user_proj_example.magic.gds
-string GDS_START 308790
+string GDS_END 9515354
+string GDS_FILE /home/qzh/Dropbox/a1001_NM/f9_chip/efab5c/SigOne5c/openlane/user_proj_example/runs/user_proj_example/results/finishing/user_proj_example.magic.gds
+string GDS_START 386556
 << end >>
 

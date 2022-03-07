@@ -22,13 +22,15 @@ set ::env(DESIGN_NAME) user_proj_example
 
 set ::env(VERILOG_FILES) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$script_dir/../../verilog/rtl/user_proj_example.v"
+	$script_dir/../../verilog/rtl/user_proj_example.v \
+	$script_dir/../../verilog/rtl/counter_multiply_reg.v"
 
 set ::env(DESIGN_IS_CORE) 0
 
 set ::env(CLOCK_PORT) "wb_clk_i"
 set ::env(CLOCK_NET) "counter.clk"
-set ::env(CLOCK_PERIOD) "10"
+#80 or 500, both mem violations @ wrapper detailed routing
+set ::env(CLOCK_PERIOD) "80"
 
 set ::env(FP_SIZING) absolute
 set ::env(DIE_AREA) "0 0 900 600"
@@ -54,3 +56,8 @@ set ::env(GND_NETS) [list {vssd1}]
 set ::env(DIODE_INSERTION_STRATEGY) 4 
 # If you're going to use multiple power domains, then disable cvc run.
 set ::env(RUN_CVC) 1
+
+# added for debug
+set ::env(ECO_ENABLE) 1
+
+

@@ -41,7 +41,7 @@ set ::env(VERILOG_FILES) "\
 set ::env(CLOCK_PORT) "user_clock2"
 set ::env(CLOCK_NET) "mprj.clk"
 
-set ::env(CLOCK_PERIOD) "10"
+set ::env(CLOCK_PERIOD) "80"
 
 ## Internal Macros
 ### Macro PDN Connections
@@ -84,3 +84,7 @@ set ::env(DIODE_INSERTION_STRATEGY) 0
 set ::env(FILL_INSERTION) 0
 set ::env(TAP_DECAP_INSERTION) 0
 set ::env(CLOCK_TREE_SYNTH) 0
+
+
+## add for debug
+set ::env(ECO_ENABLE) 1
